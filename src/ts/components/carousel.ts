@@ -4,14 +4,14 @@ export interface Attrs {
 	// Contents for each panel (supplied as attrs to each panel component instance)
 	contents: any[]
 	// App provides panel component
-	panel: Mithril.Component<any,any>
+	panel: m.ComponentTypes<any,any>
 	// Position of carousel (0...contents.length-1)
 	position?: number
 }
 
 /** Carousel component */
 export default {
-	view ({attrs: {contents, panel, position}}) {
+	view ({attrs: {contents, panel, position = 0}}) {
 		return m('.carousel',
 			m('.panels',
 				{
@@ -25,4 +25,4 @@ export default {
 			)
 		)
 	}
-} as Mithril.Component<Attrs,{}>
+} as m.Component<Attrs,{}>

@@ -59,7 +59,7 @@ export default {
 			)
 		)
 	}
-} as Mithril.Component<Attrs,{}>
+} as m.Component<Attrs,{}>
 
 function clamp (n: number, min: number, max: number) {
 	return Math.min(Math.max(n, min), max)

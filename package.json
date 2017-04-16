@@ -1,6 +1,6 @@
 {
   "name": "m-carousel",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Mithril carousel component",
   "main": "index.js",
   "scripts": {
@@ -11,24 +11,26 @@
     "build-ts": "browserify src/ts/main.ts -p [ tsify --project src/ts/tsconfig.json ] | uglifyjs -cm -o public/js/app.js",
     "compile-scss": "node-sass src/scss -o public/css --source-map-embed",
     "watch-scss": "node-sass src/scss -o public/css --source-map-embed && node-sass src/scss -o public/css -w --source-map-embed",
-    "build-scss": "node-sass src/scss -o public/css --output-style compress",
-    "clean": "rm -f public/js/app.js public/css/m-carousel.css",
-    "gen-es2015": "tsc src/ts/components/m-carousel.ts --target ES2015"
+    "build-scss": "node-sass src/scss -o public/css --output-style compressed",
+    "clean": "rm -f public/js/app.js public/css/carousel.css",
+    "gen-es2015": "tsc src/ts/components/carousel.ts --target ES2015"
   },
   "keywords": [],
   "author": "Mike Linkovich",
   "license": "MIT",
+  "dependencies": {
+    "mithril": "^1.1.1"
+  },
   "devDependencies": {
-    "@types/mithril": "github:spacejack/mithril.d.ts",
-    "browserify": "^13.1.1",
+    "@types/mithril": "^1.1.0",
+    "browserify": "^14.3.0",
     "http-server": "^0.9.0",
-    "mithril": "^1.0.0-rc.6",
-    "node-sass": "^4.1.1",
-    "npm-run-all": "^3.1.2",
-    "tsify": "^2.0.7",
-    "tslint": "^4.1.1",
-    "typescript": "^2.1.4",
-    "uglify-js": "^2.7.5",
-    "watchify": "^3.8.0"
+    "node-sass": "^4.5.2",
+    "npm-run-all": "^4.0.2",
+    "tsify": "^3.0.1",
+    "tslint": "^5.1.0",
+    "typescript": "^2.2.2",
+    "uglify-js": "^2.8.22",
+    "watchify": "^3.9.0"
   }
 }

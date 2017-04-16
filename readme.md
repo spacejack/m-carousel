@@ -1,6 +1,6 @@
 # Mithril Carousel Demo
 
-Demo implementation of a carousel with [Mithril](https://github.com/lhorie/mithril.js) 1.0.
+Example implementation of a carousel with [Mithril](https://mithril.js.org/) 1.1.
 
 [Live demo](http://www.spacejack.ca/m-carousel/)
 
@@ -11,3 +11,5 @@ Demo implementation of a carousel with [Mithril](https://github.com/lhorie/mithr
 ## Run
 
 	npm start
+
+Then go to http://localhost:3000/ in your browser.

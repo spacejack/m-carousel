@@ -12,4 +12,4 @@ export default {
 			)
 		]
 	}
-} as Mithril.Component<{},{}>
+} as m.Component<{},{}>
