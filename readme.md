@@ -2,7 +2,7 @@
 
 Example implementation of a carousel with [Mithril](https://mithril.js.org/) 1.1.
 
-[Live demo](http://www.spacejack.ca/m-carousel/)
+[Live demo](https://spacejack.github.io/m-carousel/)
 
 ## Install
 
