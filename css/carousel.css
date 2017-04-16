@@ -1,0 +1,15 @@
+.carousel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+  .carousel .panels {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    transform: translateX(0);
+    transition: transform 0.5s;
+    will-change: transform; }
+
+/*# sourceMappingURL=data:application/json;base64,ewoJInZlcnNpb24iOiAzLAoJImZpbGUiOiAicHVibGljL2Nzcy9jYXJvdXNlbC5jc3MiLAoJInNvdXJjZXMiOiBbCgkJInNyYy9zY3NzL2Nhcm91c2VsLnNjc3MiCgldLAoJIm5hbWVzIjogW10sCgkibWFwcGluZ3MiOiAiQUFBQSxBQUFBLFNBQVMsQ0FBQztFQUNULFFBQVEsRUFBRSxRQUFRO0VBQ2xCLEtBQUssRUFBRSxJQUFJO0VBQ1gsTUFBTSxFQUFFLElBQUk7RUFDWixRQUFRLEVBQUUsTUFBTSxHQVdoQjtFQWZELEFBTUMsU0FOUSxDQU1SLE9BQU8sQ0FBQztJQUNQLFFBQVEsRUFBRSxRQUFRO0lBQ2xCLElBQUksRUFBRSxDQUFDO0lBQ1AsR0FBRyxFQUFFLENBQUM7SUFDTixLQUFLLEVBQUUsSUFBSTtJQUNYLFNBQVMsRUFBRSxhQUFhO0lBQ3hCLFVBQVUsRUFBRSxjQUFjO0lBQzFCLFdBQVcsRUFBRSxTQUFTLEdBQ3RCIgp9 */
